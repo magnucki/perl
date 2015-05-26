@@ -44,13 +44,3 @@ $account = substr($mail , 0 , ($mailLength-$mailAtPosition));
 print "Die eingegebene Mail ist: " + $mail + "\n";
 print "Der Account ist: " . $account . "\n";
 print "Die Domain ist: " . $domain . "\n";
-
-
-$hallo = "Hallo Welt";
-$name = "Rico";
-
-
-$neu = substr($hallo, 0, 5, "hi");
-
-print $neu . "\n";
-print $hallo . "\n";

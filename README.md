@@ -127,7 +127,7 @@ substr($input, 10 , 3);
 ```
 
 ####Text ersetzen
-
+Â
 Auch das Ersetzen von Text ist mit `substr()` möglich. Dazu bekommt es _vier_ Parameter.
 
 Haben wir z.B. den String `"Hallo Welt"` und wollen nun `"Hallo"` mit `"Hi"` ersetzen, gehen wir wie folgt vor:
@@ -139,4 +139,4 @@ $hallo = "Hallo Welt";
 $neu = substr($hallo, 0, 5, "Hi");
 ```
 
-Es werden nun, ausgehend von der Stelle 0, die folgenden 5 Zeichen mit `"Hi"` ersetzt. In `$hallo` steht nun "Hi Welt".
+Es werden nun, ausgehend von der Stelle 0, die folgenden 5 Zeichen mit `"Hi"` ersetzt. In `$hallo` steht nun `"Hi Welt"``.
